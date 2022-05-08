@@ -1,0 +1,17 @@
+{
+    "name": "jimeneztdavid/package",
+    "type": "standard",
+    "description": "Standard for PHP package skeletons.",
+    "homepage": "s",
+    "license": "s",
+    "autoload": {
+        "psr-4": {
+            "Jimeneztdavid\\Package\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jimeneztdavid\\Package\\": "tests/"
+        }
+    }
+}
