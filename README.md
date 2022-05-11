@@ -1,16 +1,7 @@
-# pds/skeleton
+# jimeneztdavid/package
 
-This publication describes a standard filesystem skeleton suitable for all PHP
-packages.
+- It is just a simple boilerplate for package creation using php.
 
-Please see <https://github.com/php-pds/skeleton_research> for background
-information.
-
-Command-line tools for `validating` or `generating` PDS conform packages which are included with this standard are documented [here](./docs/tools.md).
-
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
-"SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this publication are to be
-interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
 
 ## Summary
 
@@ -71,11 +62,6 @@ named `public/`.
 
 This publication does not otherwise define the structure and contents of the
 directory.
-
-> N.b.: This directory MAY be intended as a web server document root.
-> Alternatively, it MAY be that the files will be served dynamically via other
-> code, copied or symlinked to the "real" document root, or otherwise managed so
-> that they become publicly available on the web.
 
 ### resources/
 
